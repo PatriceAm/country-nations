@@ -1,0 +1,9 @@
+@import "../../styles/variabiles.scss";
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $clr__DarkBlue;
+  padding: 1rem;
+}
