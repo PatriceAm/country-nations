@@ -6,4 +6,8 @@
   align-items: center;
   background-color: $clr__DarkBlue;
   padding: 1rem;
+
+  &__theme {
+    display: flex;
+  }
 }

@@ -11,3 +11,16 @@ body {
   background: $clr__VeryDarkBlue__bg;
   color: $clr__VeryLightGray;
 }
+
+input,
+button,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  color: $clr__White;
+  padding-left: 0.2rem;
+}

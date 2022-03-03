@@ -2,6 +2,7 @@ import countryServices from "./services/countryServices";
 import {useEffect, useState} from "react";
 import Filter from "./components/filter/Filter";
 import Navbar from "./components/navbar/Navbar";
+import Inputs from "./components/inputs/Inputs";
 
 const App = () => {
   const [allCountries, setAllCountries] = useState([]);
@@ -17,8 +18,8 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <p>{allCountries.length && allCountries[0].name}</p>
-      <Filter />
+      <Inputs />
+      <Filter allCountries={allCountries} />
     </div>
   );
 };

@@ -9,8 +9,8 @@ const Navbar = () => {
   const activeTheme = (switchTheme) => {
     return (
       <>
-        <h3>{switchTheme ? "Light mode" : "Dark mode"}</h3>
         <img src={switchTheme ? sun : moon} width="30" />
+        <h3>{switchTheme ? "Light mode" : "Dark mode"}</h3>
       </>
     );
   };

@@ -1,0 +1,22 @@
+@import "../../styles/variabiles.scss";
+
+.inputs__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+
+  input {
+    background: url(../../design/icons/search.svg) no-repeat;
+    background-position: 5% 50%;
+    background-color: $clr__DarkBlue;
+    padding: 1rem 3.8rem;
+    color: $clr__White;
+    width: 28rem;
+  }
+
+  select {
+    background-color: $clr__DarkBlue;
+    padding: 1rem 2.5rem;
+    color: $clr__White;
+  }
+}

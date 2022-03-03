@@ -1,0 +1,25 @@
+@import "../../styles/variabiles.scss";
+
+.card__container {
+  background-color: $clr__DarkBlue;
+  margin: 2rem;
+
+  width: 24%;
+  min-width: 280px;
+  box-shadow: 0 0 20px 2px $clr__VeryDarkBlue__tx;
+
+  img {
+    height: 40%;
+    width: 100%;
+  }
+
+  &__details {
+    padding: 1.5rem 1rem;
+    line-height: 1.6;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+
+    span {
+      color: $clr__DarkGray;
+    }
+  }
+}
